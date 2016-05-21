@@ -4,10 +4,9 @@ module Numerics
   end
   
   def even?(num)
-    nim % 2 |= 1
+    !odd?(num)
   end
   
-  module_function :odd?
-  module_function :even?
+  module_function :odd?, :even?
 
 end
