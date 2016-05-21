@@ -13,15 +13,15 @@ describe Numerics do
     }
   end
   
-  if 'even test (true)' do
+  if 'even test (false)' do
     assert {
-      Numerics.even?(4) == true 
+      Numerics.even?(4) == false 
     }
   end
   
   if 'even test (true)' do
     assert {
-      Numerics.even?(3) == false
+      Numerics.even?(3) == true
     }
   end
 end
